@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+@media (min-width: 375px) {
+  html,
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    font-family: 'Inconsolata', monospace;
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    float: left;
+    background: #0d1117;
+  }
+  .main-nav {
+    height: 4em;
+    width: 100%;
+    position: fixed;
+    background: #161b22;
+  }
+  .logo {
+    margin: 0.7em;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main-nav a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+  }
+  #hero {
+    padding: 0 3em;
+  }
+  #hero h1 {
+    margin: 4em 0 2em 0;
+    color: #fff;
+  }
+  #hero p {
+    color: #fff;
+  }
+  #one {
+    height: 100vh;
+    width: 100%;
+    background: #f0f0f0;
+    float: left;
+  }
+  #two {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    float: left;
+  }
+  #three {
+    height: 100vh;
+    width: 100%;
+    background: #f0f0f0;
+    float: left;
+  }
+  footer {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    float: left;
+  }
+  #vantaTrunk {
+    position: absolute;
+    min-width: 100%;
+    height: 100vh;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
